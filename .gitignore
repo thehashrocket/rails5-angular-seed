@@ -45,4 +45,4 @@ bower.json
 .byebug_history
 
 /client/dist
-/client/node_modules
+/client/node_modules.env
