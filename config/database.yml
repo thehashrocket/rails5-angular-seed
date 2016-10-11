@@ -22,8 +22,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
-  adapter: mysql2
-  encoding: unicode
+  adapter: postgresql
   database: myapp_development
 
   # The specified database role being used to connect to postgres.
